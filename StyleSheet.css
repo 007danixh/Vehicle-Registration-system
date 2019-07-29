@@ -1,0 +1,63 @@
+﻿body
+{
+    margin:0%;
+}
+
+
+.row
+{
+    background:black;
+}
+.col
+{
+    background:#666;
+    width:100%;
+    display:inline;
+}
+.nav
+{
+    
+    width:100%; 
+   color:White;
+   background:black;
+   
+}
+.nav ul
+{
+  
+    margin-right:30%;
+    width:100%;
+    color:white;
+    display:inline-block;
+    height: 80px;
+}
+.nav ul li
+{
+    margin-left:-2.5%;
+    
+   font-family:Cambria;
+   background:black;
+   margin-right:2px;
+   padding:5px 3px 5px 3px;
+   border:2px solid maroon;
+   border-radius:3px;  
+   list-style-type:none;
+   text-align:center;
+   max-height:20px;
+}
+.nav ul li:hover
+{
+    background:red;
+}
+.nav ul li ul li
+{
+    visibility:hidden;
+    list-style-type:none;
+    display:list-item;
+    color:White;
+}
+.nav ul li:hover
+{
+    visibility:visible;
+}
+    
